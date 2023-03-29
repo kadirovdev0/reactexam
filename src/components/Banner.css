@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.button-two {
+    border: none;
+    padding: 16px;
+    width: 160px;
+    background: grey;
+    z-index: 1;
+    margin-top: 70px;
+  }
+
+  .invalid_people{
+    position: absolute;
+  }
+
+  li{
+    font-family: 'Roboto', sans-serif;
+  }
+  p{
+    font-family: 'Poppins', sans-serif;
+  }
+  .fixed_btn{
+    width: 200px;
+    background-color: #0085CA;
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    z-index: 1;
+    margin-top: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: large;
+    color: #ffffff;
+    margin-left: 43%;
+    position: absolute;
+    padding-left: 50px;
+    position: fixed;
+
+  }
+  
+  
+  .button-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-weight: bolder;
+    font-size: large;
+  }
+  
+  .button-two span:after {
+    content: '➡';
+    position: absolute;
+    opacity: 0;
+    top: -7px;
+    font-size: 28px;
+  }
+  
+  .button-two:hover span {
+    padding-right: 30px;
+    transition: .2s;
+
+  }
+  
+  .button-two:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  
